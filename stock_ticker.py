@@ -36,5 +36,4 @@ def create_plot(ticker_symbol):
            stock_data.Close, color='blue', legend=ticker_symbol)
     p.legend.location = 'top_left'
 
-    script, div = components(p)
-    return script, div
+    return components(p)
